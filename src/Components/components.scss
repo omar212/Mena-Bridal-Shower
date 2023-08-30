@@ -1,0 +1,241 @@
+.full-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  border: 0.5px solid transparent;
+  background-color: #FAF0E6;
+  font-family: 'Wedding';
+  
+  .hr-component {
+      border: none; /* Remove the default border */
+      height: 2px; /* Set the height of the line */
+      background-color: black; /* Set the color of the line */
+      width: 20rem;
+      margin: 0 auto; 
+  }
+
+  .image-container {
+    margin-top: -80px;
+    margin-bottom: -50px;
+  }
+  .fancy-line-image {
+    width: 11%;
+
+    @media (max-width: 768px) {
+      width: 50%;
+    }
+  }
+
+  .underline {
+    display: inline-block;
+    border-bottom: 1px solid black; /* Simulate underline with a bottom border */
+    padding-bottom: 2px; 
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
+  
+  .component-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+    width: 100%;
+    height: 100%;
+    
+    font-family: 'WeddingHeader', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    
+    // create responsive flex direction for mobile
+    @media (max-width: 768px) {
+      flex-direction: column;
+
+    }
+
+    .attendance-component {
+
+        .form {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          width: 100%;
+          height: 100%;
+          align-items: center;
+          margin-top: 10px;
+        }
+      
+      .rsvp-button {
+          padding: 10px 20px;
+          background-color: transparent;
+          color: black;
+          width: 70%;
+          border: 2px solid black;
+          border-radius: 0;
+          cursor: pointer;
+
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+    
+    }
+
+  
+    &.vertical {
+      width: 100%;
+      flex-direction: column;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 20%;
+      margin: 0 auto; /* Remove default margin */
+      gap: 10px; /* Adjust the gap between elements */
+      // create responsive width for mobile
+      @media (max-width: 768px) {
+        width: 70%;
+      }
+
+
+    }
+    
+    .component-title {
+      font-family: 'WeddingHeader', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem; /* Adjust margin to bring title closer to text */
+
+      &.header {
+        font-family: 'WeddingHeader4',  sans-serif;
+        font-size: 3.5rem;
+        font-weight: 100;
+        margin-bottom: 1.5rem; /* Adjust margin to bring title closer to text */
+
+        @media (max-width: 768px) {
+          padding: 6%;
+          font-size: 2.5rem;
+        }
+      }
+    }
+  
+    .component {
+      display: flex;
+      height: fit-content;
+      width: 100%;
+      padding: 1rem;
+      box-sizing: border-box;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+
+      .hosted-by-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+
+      .date-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+      
+
+      .address-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+
+  
+      .component-title {
+        font-family: inherit;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem; /* Adjust margin to bring title closer to text */
+      }
+  
+      .component-text {
+        display: contents;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 0.5rem;
+        margin-bottom: 2.5rem; /* Remove margin to eliminate extra spacing */
+
+        
+      }
+      .custom-date {
+        margin-top:0;
+      }
+      
+    }
+
+}
+  
+}
+
+.rsvp-title {
+  font-family: 'WeddingHeader', sans-serif !important;
+  font-size: 1.5rem !important;
+  font-weight: 100 !important;
+  margin-bottom: 1.5rem; /* Adjust margin to bring title closer to text */
+}
+
+.rsvp-container {
+  height: fit-content !important;
+  background-color: #FAF0E6 !important; 
+}
+
+/* Add space between each guest item */
+.guest-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.guest-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.guest-item button {
+  padding: 4px;
+  min-width: 0;
+}
+
+/* Add space between buttons */
+.form button {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Add space between input fields */
+.form .MuiTextField-root {
+  margin-bottom: 10px;
+}
+
+
+.MuiDialogTitle-root+.MuiDialogContent-root {
+  padding:  20px 24px !important; 
+}
