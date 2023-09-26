@@ -17,10 +17,18 @@ const BridalShowerRSVP = () => {
           <HostedBy title="Hosted By" name="Elkafafi Family" />
         </div>
         <div className="component">
-          <DateComponent title="Date" dateTitle="Saturday, October 14th 2023" time="2:00PM" dateText="Saturday, October 14th, 2023" date="2023-10-14" startTime="13:00" endTime="23:00" />
+          <DateComponent 
+            title="Date" 
+            dateTitle="Sunday, November 5th 2023" 
+            time="5:00PM" 
+            dateText="Sunday, November 5th, 2023" 
+            date="2023-11-5" 
+            startTime="17:00" 
+            endTime="21:00" 
+          />
         </div>
         <div className="component">
-          <Address title="Address" location='Mena`s House' address="1420 Drumgoole Road East" city='Staten Island, NY 10312' actual='1420 Drumgoole Road East, Staten Island, NY, 10312'/>
+          <Address title="Address" location='The Gran Centurions' address="440 Madison Hill Rd, Clark, NJ 07066" city='Clark, NJ 07066' actual='440 Madison Hill Rd, Clark, NJ 07066'/>
         </div>
       </div>
     </div>
