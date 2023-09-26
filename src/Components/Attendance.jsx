@@ -89,8 +89,8 @@ const AttendanceComponent = () => {
           RSVP
         </Button>
       </div>
-      <Dialog className="modal" open={isDialogOpen} onClose={closeDialog}>
-        <DialogTitle className="rsvp-title">RSVP</DialogTitle>
+      <Dialog className="modal rsvp-container" open={isDialogOpen} onClose={closeDialog}>
+        <DialogTitle className="rsvp-container rsvp-title">RSVP</DialogTitle>
         <DialogContent>
           <Grid container justifyContent="center">
             <Grid>

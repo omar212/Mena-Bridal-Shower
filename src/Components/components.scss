@@ -80,7 +80,7 @@
             opacity: 0.5;
           }
         }
-    
+
     }
 
   
@@ -195,9 +195,10 @@
   margin-bottom: 1.5rem; /* Adjust margin to bring title closer to text */
 }
 
-.rsvp-container {
-  height: fit-content !important;
-  background-color: #FAF0E6 !important; 
+
+.modal .rsvp-container {
+  color: #723A19 !important;
+  background-color: #C9AB93 !important;
 }
 
 /* Add space between each guest item */
