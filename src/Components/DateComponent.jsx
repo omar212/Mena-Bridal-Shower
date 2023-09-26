@@ -26,11 +26,8 @@ const DateComponent = ({ dateTitle, time, startTime, endTime }) => {
          timeZone="America/New_York"
          location="The Gran Centurions 440 Madison Hill Rd, Clark, NJ 07066"
          description="Mena's Bridal Shower"
-         hideTextLabelButton
-         options="'Apple','Google','iCal','Outlook.com','Yahoo'"
+         options="'Apple','Google','iCal'"
          label="Add to Calendar"
-         buttonsList
-         buttonStyle="round"
          iCalFileName="Reminder-Event"
          lightMode="bodyScheme"
          alarm={reminder}

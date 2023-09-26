@@ -21,11 +21,6 @@ const HostedBy = ({ name }) => {
     emojiReward(); // Trigger the emoji reward animation
   };
 
-  // Use useEffect to trigger the emojiReward when the component mounts
-  useEffect(() => {
-    triggerEmojiReward();
-  }, []);
-
   return (
     <div className='hosted-by-container'>
       <div className="component-title">Hosted By</div>
