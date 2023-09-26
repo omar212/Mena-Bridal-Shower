@@ -24,7 +24,7 @@ const DateComponent = ({ dateTitle, time, startTime, endTime }) => {
          startTime={startTime}
          endTime={endTime}
          timeZone="America/New_York"
-         location="440 Madison Hill Rd, Clark, NJ 07066"
+         location="The Gran Centurions 440 Madison Hill Rd, Clark, NJ 07066"
          description="Mena's Bridal Shower"
          hideTextLabelButton
          options="'Apple','Google','iCal','Outlook.com','Yahoo'"
