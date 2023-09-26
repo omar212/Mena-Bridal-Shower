@@ -5,7 +5,7 @@ const BridalShowerRegistry = () => {
         <div className="full-container bridal-shower-registry">
             <div className="bridal-shower-registry-container">
                 <div className="registry-component-title">
-                    <img width="100" height="100" src="https://img.icons8.com/ios/100/wedding-gift--v1.png" alt="wedding-gift--v1"/>
+                    <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/3f271d/wedding-gift.png" alt="wedding-gift"/>
                     <h1>Registry</h1>
                 </div>
                 <div className="registry-component">

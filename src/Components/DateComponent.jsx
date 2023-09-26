@@ -30,6 +30,7 @@ const DateComponent = ({ dateTitle, time, startTime, endTime }) => {
          label="Add to Calendar"
          iCalFileName="Reminder-Event"
          lightMode="bodyScheme"
+         styleLight="--btn-background: #3F271D; --btn-text: #E8DACC; --font: 'Wedding regular'"
          alarm={reminder}
          rsvp={true}
       />
